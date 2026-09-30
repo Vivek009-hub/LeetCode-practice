@@ -15,9 +15,9 @@ public:
                     low = mid+1;
                 }
             }
- if(low == arr2.size() || arr2[low] > x+d){
-            count++;
-        }
+            if(low == arr2.size() || arr2[low] > x+d){
+                count++;
+            }
         }
        
         return count;
