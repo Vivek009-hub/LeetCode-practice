@@ -17,7 +17,7 @@ public:
         for(int num:nums){
             f[num]++;
         }
-// Top K , that's why we are using Min Heap
+        // Top K , that's why we are using Min Heap
         priority_queue<pair<int,int>,vector<pair<int,int>>, cmp> pq;
 
         for(auto i:f){
